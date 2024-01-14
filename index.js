@@ -2,7 +2,7 @@
 
 // Dependencies
 const express = require('express');
-const expressHandlebars = require('express-handlebars');
+const { engine } = require('express-handlebars');
 const expressSession = require('express-session');
 const flash = require('connect-flash');
 const logger = require('morgan');
@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 8080;
 app.set('port', PORT);
 
 // Set view engine
-app.engine('handlebars', expressHandlebars({ defaultLayout: false }));
+app.engine('handlebars', engine({ defaultLayout: false }));
 app.set('view engine', 'handlebars');
 
 // Set static path
