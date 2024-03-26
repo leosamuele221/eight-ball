@@ -24,11 +24,6 @@ A multiplayer 8 ball pool game made in [Node.js](https://nodejs.org/) using [Exp
 
    The server will be running on [localhost:8080](http://localhost:8080/).
 
-## Example
-
-The game can be played at [eight-ball--aakashkcx.repl.co](https://eight-ball--aakashkcx.repl.co).\
-_Account and game data will not be saved._
-
 ## Images
 
 #### Multiplayer Gameplay:
